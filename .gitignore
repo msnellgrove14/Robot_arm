@@ -1,0 +1,23 @@
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# virtualenv
+arm_env/
+venv/
+
+# generated roadmaps and configuration pools -- these are large and rebuild
+# from the notebooks (see PRM.ipynb / PRM_obstacles.ipynb)
+data/*.npz
+
+# render scratch
+_anim_frames/
+
+# editor / os
+.history/
+.vscode/
+.DS_Store
+
+# the pre-rewrite history, kept locally until the push is confirmed
+.git-old/
